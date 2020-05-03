@@ -1,15 +1,30 @@
+<head>
+	<title>Party Planner!</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"></head>
+</head>
+    <div class="header">
+        <div class="navbar">
+        <tr>
+            <div class= "icon"><td><a href="Homepage.html"> <img src ="assets/Home.png" width="40%"></i> <br>HOME</a></td></div>
+        
+            <div class= "icon"><td><a href=""> <img src ="assets/Schedule.png" width="40%"></i> <br>SCHEDULE AN APPOINTMENT</a></td></div>
+        
+            <div class= "icon"><td><a href="about.html"> <img src ="assets/User.png" width="40%"></i> <br>ABOUT US</a></td></div>
+        </tr>
+        </div>
+	  <h1>UPCOMING BOOKINGS</h1>
+    </div>
+
+<div class= "upcomingbook">
 <p id="notice"><%= notice %></p>
-
-<h1>Upcoming Bookings</h1>
-
 <table>
   <thead>
     <tr>
-      <th>Apptype</th>
-      <th>Appclient</th>
-      <th>Appdate</th>
-      <th>Apptime</th>
-      <th>Applength</th>
+      <th>Type of Event</th>
+      <th>First and Last Name</th>
+      <th>Date of Event</th>
+      <th>Event Start Time</th>
+      <th>Event Length (Hours)</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -33,3 +48,4 @@
 <br>
 
 <%= link_to 'New Booking', new_booking_path %>
+</div>

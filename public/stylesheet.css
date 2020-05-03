@@ -45,7 +45,6 @@ body {
 
 
 .centerbody {
-
     position: relative;
     column-count: 3;
     padding-top: 15%;
@@ -169,5 +168,4 @@ body {
     margin-right: 1%;
     font-size: larger;
 }
-
 

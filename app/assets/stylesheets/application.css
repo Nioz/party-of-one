@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Bookings */
+
+.upcomingbook{
+    position: relative;
+    padding-top: 15%;
+    padding-right: 7%;
+    padding-left: 3%;    
+}
+
+.newform{
+    position: relative;
+    padding-top: 15%;
+    padding-right: 7%;
+    padding-left: 3%;    
+}
+
+.showbook{
+    position: relative;
+    padding-top: 15%;
+    padding-right: 7%;
+    padding-left: 3%;    
+}
+

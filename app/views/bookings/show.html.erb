@@ -1,29 +1,39 @@
-<p id="notice"><%= notice %></p>
+<head>
+	<title>Party Planner!</title>
+        <link rel="stylesheet" type="text/css" href="/stylesheet.css"></head>
+</head>
+    <div class="header">
+	    <h1>EDIT A BOOKING</h1>
+    </div>
 
-<p>
-  <strong>Apptype:</strong>
-  <%= @booking.appType %>
-</p>
+<div class="showbook">
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Appclient:</strong>
-  <%= @booking.appClient %>
-</p>
+  <p>
+    <strong>Type of Event:</strong>
+    <%= @booking.appType %>
+  </p>
 
-<p>
-  <strong>Appdate:</strong>
-  <%= @booking.appDate %>
-</p>
+  <p>
+    <strong>First and Last Name:</strong>
+    <%= @booking.appClient %>
+  </p>
 
-<p>
-  <strong>Apptime:</strong>
-  <%= @booking.appTime %>
-</p>
+  <p>
+    <strong>Date of Event:</strong>
+    <%= @booking.appDate %>
+  </p>
 
-<p>
-  <strong>Applength:</strong>
-  <%= @booking.appLength %>
-</p>
+  <p>
+    <strong>Event Start Time:</strong>
+    <%= @booking.appTime %>
+  </p>
 
-<%= link_to 'Edit', edit_booking_path(@booking) %> |
-<%= link_to 'Back', bookings_path %>
+  <p>
+    <strong>Event Length (Hours):</strong>
+    <%= @booking.appLength %>
+  </p>
+
+  <%= link_to 'Edit', edit_booking_path(@booking) %> |
+  <%= link_to 'Back', bookings_path %>
+</div>
